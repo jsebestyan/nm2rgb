@@ -3,8 +3,8 @@
  *  NM2RGB PHP Class
  *  Converts wavelength to RGB.
  *  by jsebestyan@gmail.com 
- *  
- *  Example: NM2RGB::Hex(420);      
+ *  echo NM2RGB::Hex(420); 
+ *  // output: #3800FF        
  ******************************/
   Class NM2RGB 
   {
