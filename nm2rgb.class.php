@@ -16,7 +16,6 @@
     Const rgbp = "%02X%02X%02X";
     Static Function Hex($nm, $icf = True) 
     {
-        
         $rgb = New NM2RGB($nm, $icf);
         return (Int)$rgb->getHex();
     }  
